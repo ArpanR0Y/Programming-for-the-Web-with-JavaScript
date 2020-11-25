@@ -1,0 +1,86 @@
+body {
+    font-family: Helvetica;
+}
+
+table {
+    table-layout: fixed;
+    width: 70%;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 200%;
+    font-weight: 700;
+    letter-spacing: 3px; 
+    padding-right: 50px;
+    padding-bottom: 150px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px #000;
+    vertical-align: top;
+}
+
+.copyright-notice {
+    color:#FFF;
+    font-size:50%;
+    padding-right:50px;
+    text-align:right;
+    text-decoration:none;
+    vertical-align:bottom;
+}
+
+.month-header {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/57210e28d51cd4ec63a281b6/1507314588570-1NMVKAH4TH9TDNTK0YSU/ke17ZwdGBToddI8pDm48kApm4bZ6Mn3TiUWou3kA3bp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UWZaykogqWzieOupsqeSuBYug-y5Ut2InYZT1FrJD3yL-rj95DA1mjJIBxXFGHkuyQ/pooling+moonlight.jpg?format=750w);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    text-align: right;
+}
+
+.weekday-header {
+    background-color:#999;
+    border-color:#ddd;
+    border-style:solid;
+    letter-spacing:1px;
+    line-height:25px;
+}
+
+.week {
+    background-color: #eaeaea;
+    height: 75px;
+    margin: 0;
+    text-align: left;
+    vertical-align: top;
+}
+
+.off-day {
+    background-color:#ddd;
+}
+
+ul {
+font-size:75%;
+list-style:none;
+padding-left:20px;
+padding-right:5px;
+}
+
+.event {
+    border-radius:5px;
+    color:#10171C;
+    padding:5px;margin:5px 0;
+}
+.holiday {
+    background-color:#E8E193;
+}
+
+.birthday {
+    background-color:#AFFFAD;
+ }
+.school {
+    background-color:#BA9CE8;
+}
+.dog-walk {
+    background-color:#A6F4FF;
+}
+.appointment {
+    background-color:#FF7E6D;
+}
