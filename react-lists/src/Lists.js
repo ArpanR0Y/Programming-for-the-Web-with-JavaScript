@@ -25,7 +25,7 @@ class Lists extends Component {
               name={listName}
               items={items[listName]}
               addItem={addItem.bind(this)}
-              key={uuidv4()}
+              key={uuidv4}
             />
           );
         })}
